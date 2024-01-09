@@ -1,7 +1,7 @@
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="text-red-500 text-xl">
       This is Navbar section
     </div>
   )
