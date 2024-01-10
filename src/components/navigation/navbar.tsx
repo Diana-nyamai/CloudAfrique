@@ -1,6 +1,30 @@
+import { useEffect, useRef, useState } from "react";
 import { images } from "../../constants";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navBarRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(()=>{
+      const handleOutsideClick = (e: MouseEvent) =>{
+        if(navBarRef.current && !navBarRef.current.contains(e.target as Node)){
+          setIsMenuOpen(false);
+        }
+      }
+
+      if(isMenuOpen){
+        document.addEventListener('click', handleOutsideClick);
+      }
+
+      return ()=>{
+        document.removeEventListener('click', handleOutsideClick);
+      }
+  },[isMenuOpen])
+
+  const toggleMenu = () =>{
+    setIsMenuOpen(!isMenuOpen);
+  }
+
   return (
     <div className="bg-blue w-full py-4">
     <header className="bg-white lg:w-[70%] mx-auto lg:rounded-full">
@@ -37,7 +61,7 @@ const Navbar = () => {
                 <li>
                   <a className="transition hover:text-orange" href="/donate">
                     {" "}
-                    Donate{" "}
+                    Contact{" "}
                   </a>
                 </li>
               </ul>
@@ -55,7 +79,7 @@ const Navbar = () => {
             </div>
 
             <div className="block md:hidden">
-              <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+              <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75" onClick={toggleMenu}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -76,6 +100,22 @@ const Navbar = () => {
         </div>
       </div>
     </header>
+
+    {
+      isMenuOpen && (
+        <div className="md:hidden bg-white py-2 text-center">
+          <a className="block py-2" href="/">
+            Home
+          </a>
+          <a className="block py-2" href="/about">
+            About
+          </a>
+          <a className="block py-2" href="/donate">
+            Donate
+          </a>
+        </div>
+      )
+    }
     </div>
   );
 };
