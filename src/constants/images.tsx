@@ -1,4 +1,5 @@
 import logo from '../assets/logo.png'
+import logoTransparent from '../assets/logoTransparent.png';
 import charityHome from '../assets/CharityHero.png';
 import About from '../assets/About.svg';
 import p1 from '../assets/partners/p1.png'
@@ -8,6 +9,7 @@ import p4 from '../assets/partners/p4.png'
 
 export default {
     logo,
+    logoTransparent,
     charityHome,
     About,
     p1,
