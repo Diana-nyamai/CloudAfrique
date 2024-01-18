@@ -31,15 +31,15 @@ const Home: React.FC = () => {
       </div>
 
       {/* our story */}
-      <div className="bg-blue text-white">
-        <p>Our sDG’S</p>
-        <h2>THIS ARE OUR SDGs</h2>
+      <div className="bg-blue text-white py-6">
+        <p className="text-center mt-4 font-bold text-4xl">Our SDG’s</p>
+        <h2 className="text-center mt-2 font-semibold">THIS ARE OUR SDGs</h2>
 
-        <div className="flex gap-5 wrap">
+        <div className="flex gap-5 flex-wrap justify-center items-center mt-10">
           {data.map((data, index) => (
           <SdgCard title={data.title} desc={data.desc} index={index} />
         ))}
-        </div>
+        </div>        
         
       </div>
     </div>
