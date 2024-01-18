@@ -1,5 +1,5 @@
 import React from "react";
-import { About, HomeHero, SdgCard } from "../../components";
+import { About, HomeHero, Partners, Principles, SdgCard } from "../../components";
 import { data } from "./sdgData";
 
 const Home: React.FC = () => {
@@ -30,7 +30,7 @@ const Home: React.FC = () => {
         <About />
       </div>
 
-      {/* our story */}
+      {/* our SDG */}
       <div className="bg-blue text-white py-6">
         <p className="text-center mt-4 font-bold text-4xl">Our SDG’s</p>
         <h2 className="text-center mt-2 font-semibold">THIS ARE OUR SDGs</h2>
@@ -42,6 +42,12 @@ const Home: React.FC = () => {
         </div>        
         
       </div>
+
+      {/* Our principles */}
+      <Principles/>
+
+      {/* partners */}
+      <Partners/>
     </div>
   );
 };
