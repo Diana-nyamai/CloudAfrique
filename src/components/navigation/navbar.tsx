@@ -59,7 +59,7 @@ const Navbar = () => {
                 </li>
 
                 <li>
-                  <a className="transition hover:text-orange" href="/donate">
+                  <a className="transition hover:text-orange" href="/contact">
                     {" "}
                     Contact{" "}
                   </a>
