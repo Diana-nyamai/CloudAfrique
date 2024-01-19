@@ -1,10 +1,10 @@
-import Navbar from "./navigation/navbar";
-import Footer from "./footer/Footer";
-import HomeHero from "./hero/HomeHero";
-import About from "./about/About";
-import SdgCard from "./cards/SdgCard";
-import Principles from "./principles/Principles";
-import Partners from "./partners/Partners";
+import Navbar from "./navigation";
+import Footer from "./footer";
+import HomeHero from "./hero";
+import About from "./about";
+import SdgCard from "./cards";
+import Principles from "./principles";
+import Partners from "./partners";
 
 export {
     Navbar,
