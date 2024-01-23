@@ -6,6 +6,7 @@ import p1 from '../assets/partners/p1.png'
 import p2 from '../assets/partners/p2.png'
 import p3 from '../assets/partners/p3.png'
 import p4 from '../assets/partners/p4.png'
+import aboutUs from '../assets/aboutUs.png'
 
 export default {
     logo,
@@ -15,5 +16,6 @@ export default {
     p1,
     p2,
     p3,
-    p4
+    p4,
+    aboutUs,
 }
