@@ -7,6 +7,12 @@ import p2 from '../assets/partners/p2.png'
 import p3 from '../assets/partners/p3.png'
 import p4 from '../assets/partners/p4.png'
 import aboutUs from '../assets/aboutUs.png'
+import donate from '../assets/about/donate.png';
+import bird from '../assets/funFacts/bird.png';
+import globe from '../assets/funFacts/globe.png';
+import hands from '../assets/funFacts/hands.png';
+import partner from '../assets/funFacts/partner.png';
+import kids from '../assets/gallery/kids.png';
 
 export default {
     logo,
@@ -18,4 +24,10 @@ export default {
     p3,
     p4,
     aboutUs,
+    donate,
+    bird,
+    globe,
+    hands,
+    partner,
+    kids
 }

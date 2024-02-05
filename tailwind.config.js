@@ -10,6 +10,8 @@ export default {
         'orange':'#E26434',
         'blue': '#002E5D',
         'white':'#fff',
+        'lightBlue':"#002E5D21",
+        'lightOrange':"#F68D2949",
         'gradient': 'linear-gradient(45deg, #06193F, #E26434C2);'
       },
       fontFamily:{
