@@ -27,7 +27,7 @@ const Principles = () => {
       <h2 className='text-center text-xl font-semibold mb-2'>Guiding <span className="text-orange">Principles</span> </h2>
       <h1 className='text-center text-4xl font-bold mb-6'>WHAT WE STAND FOR</h1>
 
-      <div className='w-[70%] mx-auto'>
+      <div className='lg:w-[70%] mx-auto'>
         <Collapse accordion items={items}/>
       </div>
         
