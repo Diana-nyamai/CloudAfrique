@@ -13,6 +13,8 @@ import globe from '../assets/funFacts/globe.png';
 import hands from '../assets/funFacts/hands.png';
 import partner from '../assets/funFacts/partner.png';
 import kids from '../assets/gallery/kids.png';
+import donateimg from '../assets/donate.png';
+import paybill from '../assets/paybill.png';
 
 export default {
     logo,
@@ -29,5 +31,7 @@ export default {
     globe,
     hands,
     partner,
-    kids
+    kids,
+    donateimg,
+    paybill
 }
