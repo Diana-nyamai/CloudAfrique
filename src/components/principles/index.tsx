@@ -24,7 +24,11 @@ const items:CollapseProps['items'] = [
 const Principles = () => {
   return (
     <div className='p-6 mt-60'>
-      <h2 className='text-center text-xl font-semibold mb-2'>Guiding <span className="text-orange">Principles</span> </h2>
+      <div className="flex items-center gap-3 justify-center">
+          <p className="w-20 border-b-2 border-orange"></p>
+            <h2 className='text-center text-xl font-semibold'>Guiding <span className="text-orange">Principles</span> </h2>
+          </div>
+    
       <h1 className='text-center text-4xl font-bold mb-6'>WHAT WE STAND FOR</h1>
 
       <div className='lg:w-[70%] mx-auto'>

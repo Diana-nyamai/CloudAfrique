@@ -1,4 +1,6 @@
 import { images } from "../../constants"
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -18,21 +20,25 @@ const Footer = () => {
 
       <div className="flex flex-col mt-5 lg:mt-0">
         <h3 className="font-semibold font-playfair mb-4">Get in touch</h3>
-        <a href="#">Home</a>
+        <a href="#">Contact us</a>
       </div>
 
       <div className="flex flex-col mt-5 lg:mt-0">
         <h3 className="font-semibold font-playfair mb-4">Address</h3>
-        <a href="#">Home</a>
+        <p>Kenya, Nairobi</p>
       </div>
 
       <div className="flex flex-col mt-5 lg:mt-0">
-        <h3 className="font-semibold font-playfair mb-4">Quick links</h3>
-        <a href="#">Home</a>
+        <h3 className="font-semibold font-playfair mb-4">Follow Us</h3>
+        <div className="flex gap-3">
+          <a href="#"><FaXTwitter /></a>
+          <a href="#"><FaInstagram /></a>
+        </div>
+        
       </div>
     </div>
     <hr className="w-[80%] mx-auto"/>
-    <p className="text-center py-4">&copy; copyright {new Date().getFullYear()}</p>
+    <p className="text-center py-4">&copy; copyright {new Date().getFullYear()} Cloud Afrique. All Right Reserved.</p>
     </div>
   )
 }

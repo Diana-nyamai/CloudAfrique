@@ -31,9 +31,13 @@ const Home: React.FC = () => {
       </div>
 
       {/* our SDG */}
-      <div className="bg-blue text-white py-6">
-        <p className="text-center mt-4 font-bold text-4xl">Our SDG’s</p>
-        <h2 className="text-center mt-2 font-semibold">THIS ARE OUR SDGs</h2>
+      <div className="bg-blue text-white py-10">
+        <div className="flex items-center gap-3 justify-center">
+          <p className="w-20 border-b-2 border-orange"></p>
+          <p className="text-center text-xl font-playfair">Our SDG’s</p>
+        </div>
+        
+        <h2 className="text-center mt-2 font-bold text-4xl font-playfair">THIS ARE OUR SDGs</h2>
 
         <div className="flex gap-5 flex-wrap justify-center items-center mt-10">
           {data.map((data, index) => (
