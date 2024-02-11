@@ -13,14 +13,14 @@ const Footer = () => {
 
       <div className="flex flex-col">
         <h3 className="font-semibold font-playfair mb-4">Quick links</h3>
-        <a href="#">Home</a>
-        <a href="#">About us</a>
-        <a href="#">Donate</a>
+        <a href="/">Home</a>
+        <a href="/about">About us</a>
+        <a href="/donate">Donate</a>
       </div>
 
       <div className="flex flex-col mt-5 lg:mt-0">
         <h3 className="font-semibold font-playfair mb-4">Get in touch</h3>
-        <a href="#">Contact us</a>
+        <a href="/contact">Contact us</a>
       </div>
 
       <div className="flex flex-col mt-5 lg:mt-0">
