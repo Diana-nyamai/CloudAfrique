@@ -6,8 +6,8 @@ const Donate = () => {
   return (
     <div>
       <div className="relative bg-blue h-full flex flex-col lg:flex-row justify-center items-center lg:px-32 pb-32">
-        <div className="text-white px-5 xl:w-1/2 mt-10">
-          <h1 className="text-orange text-2xl lg:text-6xl capitalize mb-4 font-playfair text-center">
+        <div className="text-white px-5 xl:w-1/2 mt-10"> 
+          <h1 className="text-orange text-2xl lg:text-6xl capitalize mb-4 font-playfair text-center animate__animated animate__bounce">
             Donate
           </h1>
           <p className="font-montserrat mb-4 text-center">
