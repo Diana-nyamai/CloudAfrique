@@ -5,10 +5,10 @@ const Contact = () => {
     <div>
       <div className="relative bg-blue h-full flex flex-col lg:flex-row justify-center items-center lg:px-32 pb-32">
         <div className="text-white px-5 xl:w-1/2 mt-10">
-          <h1 className="text-orange text-2xl lg:text-6xl capitalize mb-4 font-playfair text-center animate__animated animate__bounce">
+          <h1 className="text-orange text-2xl lg:text-6xl capitalize mb-4 font-playfair text-center animate__animated animate__fadeInDown">
             Contact Us
           </h1>
-          <p className="font-montserrat mb-4 text-center">
+          <p className="font-montserrat mb-4 text-center  animate__animated animate__fadeInUp">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
             dolorum laudantium nesciunt exercitationem modi. In sit saepe eius,
             mollitia hic voluptatem eligendi ipsam recusandae
@@ -20,7 +20,9 @@ const Contact = () => {
       <div className="flex flex-wrap lg:flex-nowrap px-3 lg:px-32 my-36 gap-4">
         <div className="w-full">
           <h3 className="font-semibold font-montserrat">Get in Touch</h3>
-          <h1 className=" font-playfair text-3xl my-5 font-semibold">Send us a message</h1>
+          <h1 className=" font-playfair text-3xl my-5 font-semibold">
+            Send us a message
+          </h1>
           <form className="flex flex-col w-full gap-4 justify-between">
             <div className="flex gap-5 w-full">
               <label className="relative block overflow-hidden bg-lightOrange rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
@@ -88,7 +90,9 @@ const Contact = () => {
         </div>
 
         <div className="bg-lightOrange p-5">
-          <h1 className="text-semibold font-playfair font-semibold text-3xl mb-5">Address</h1>
+          <h1 className="text-semibold font-playfair font-semibold text-3xl mb-5">
+            Address
+          </h1>
           <p className="mb-5">
             Quam elementum pulvinar etiam non quam lacus suspendisse.A
             scelerisque purus semper eget duis at Lobortisscelerisque fermentum
