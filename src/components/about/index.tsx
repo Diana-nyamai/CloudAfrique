@@ -18,7 +18,7 @@ const About:React.FC = () => {
         </div>
        
         <h2 className="font-playfair text-3xl font-bold">KNOW ABOUT US</h2>
-        <p className="">In Kenya, the high cost of clothing ,primarily due to expensive imported garments , poses a significant challenge for many, especially those with limited financial means. This scarcity of affordable clothing affects the basic well-being and self –esteem of individuals. Additionally ,unemployment rates, particularly among women and youth ,further compound economic hardships. To address these issues ,Cloud Afrique proposes a transformative solution by locally producing and selling clothing at more affordable prices while empowering women and unemployed youth through job creation at various stages at the production process. This initiative seeks to improve accessibility to clothing as a basic necessity, enhance economic opportunities and foster a stronger ,more self sufficient community.</p>
+        <p className="">In Kenya, the high cost of clothing ,primarily due to expensive imported garments , poses a significant challenge for many, especially those with limited financial means.</p>
       </div>
     </div>
   )
